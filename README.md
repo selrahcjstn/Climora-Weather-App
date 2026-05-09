@@ -1,10 +1,10 @@
+# Climora
+Climora is a basic weather application built with Vue.js.
+The project was created to practice and apply fundamental Vue.js concepts through a simple and responsive weather interface.
+
 ![Climora UI](./src/assets/climora.png)
 
 
-# Climora
-
-Climora is a basic weather application built with Vue.js.
-The project was created to practice and apply fundamental Vue.js concepts through a simple and responsive weather interface.
 
 ## Overview
 
