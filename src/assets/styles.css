@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    background: var(--color-background);
+    color: var(--color-text);
+    min-height: 100vh;
+}
+
+:root {
+  --color-background: #0D0D12;
+  --color-surface: #18181F;
+  --color-text: #F0EEFF;
+  --color-muted: #7A7A8C;
+  --color-accent: #A78BFA;
+  --color-border: rgba(167,139,250,0.30);
+}
