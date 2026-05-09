@@ -2,6 +2,7 @@
 import { ref, onMounted } from "vue";
 
 import AppHeader from "@/components/AppHeader.vue";
+import AppFooter from "@/components/AppFooter.vue";
 import WeatherCard from "@/components/WeatherCard.vue";
 import ForecastSection from "@/components/ForecastSection.vue";
 import HighlightSection from "@/components/HighlightSection.vue";
