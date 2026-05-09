@@ -1,38 +1,59 @@
-# .
+# Climora
 
-This template should help get you started developing with Vue 3 in Vite.
+Climora is a basic weather application built with Vue.js.
+The project was created to practice and apply fundamental Vue.js concepts through a simple and responsive weather interface.
 
-## Recommended IDE Setup
+## Overview
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+The application allows users to search for a city and display current weather information such as:
 
-## Recommended Browser Setup
+- Temperature
+- Weather condition
+- Humidity
+- Wind status
+- UV index
+- Visibility
+- Sunrise and sunset time
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Purpose
 
-## Customize configuration
+This project focuses on applying beginner-level Vue.js skills including:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Component-based architecture
+- Props and reusable components
+- Conditional rendering using `v-if`
+- Reactive data handling
+- `script setup`
+- Basic project structure organization
+- API data rendering
+- Responsive UI styling
 
-## Project Setup
+## Features
 
-```sh
-npm install
-```
+- Search weather by city
+- Display current weather details
+- Weather highlight cards
+- Dynamic weather icons
+- Responsive layout
+- Modern card-based interface
 
-### Compile and Hot-Reload for Development
+## Tech Stack
 
-```sh
-npm run dev
-```
+- Vue.js
+- Vite
+- JavaScript
+- CSS
 
-### Compile and Minify for Production
+## API & Assets
 
-```sh
-npm run build
-```
+- Powered by WeatherAPI
+- Weather icons from AmCharts Free Animated SVG Weather Icons
+
+## Notes
+
+Climora is a practice project intended for learning Vue.js fundamentals and improving frontend development skills through hands-on project building.
+
+## Credits
+
+- Weather Data API: https://www.weatherapi.com/
+- Weather Icons: https://www.amcharts.com/free-animated-svg-weather-icons/
