@@ -1,3 +1,6 @@
+![Climora UI](./src/assets/climora.png)
+
+
 # Climora
 
 Climora is a basic weather application built with Vue.js.
