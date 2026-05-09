@@ -48,6 +48,7 @@ const formatDay = (dateStr) => {
   padding: 2rem 1.5rem 1.5rem 1.5rem;
   border-radius: 1.5rem;
   border: 1px solid var(--color-border);
+  gap: 1rem;
 }
 
 .label {

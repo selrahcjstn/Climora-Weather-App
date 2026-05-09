@@ -8,10 +8,9 @@ defineProps({
   minTemp: { type: Number, required: true }
 })
 </script>
-
 <template>
-  <div class="forecast-row">
-    <span class="day">{{ day }}</span>
+  <div :class="['forecast-row', { 'is-today': day === 'Today' }]">
+    <span :class="['day', { 'is-today-label': day === 'Today' }]">{{ day }}</span>
     <img
       class="weather-icon"
       :src="getIconForCondition(conditionText, 1)"
@@ -32,17 +31,30 @@ defineProps({
   gap: 12px;
   flex: 1;
   border-bottom: 1px solid var(--color-border);
-  padding: 0 4px;
+  padding: 0 10px;
+  border-radius: 0.75rem;
+  transition: background 0.2s;
 }
 
 .forecast-row:last-child {
   border-bottom: none;
 }
 
+.forecast-row.is-today {
+  background-color: rgba(139, 92, 246, 0.08);
+  border-bottom-color: transparent;
+  outline: 1px solid rgba(139, 92, 246, 0.2);
+}
+
 .day {
   font-size: 0.88rem;
   color: var(--color-muted);
   min-width: 48px;
+}
+
+.day.is-today-label {
+  color: var(--color-accent, #8b5cf6);
+  font-weight: 700;
 }
 
 .weather-icon {
